@@ -1,4 +1,4 @@
-package junit;
+package giomodiogo.business;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,8 +10,8 @@ import org.junit.jupiter.api.*;
 import java.util.logging.Logger;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class JUnitSampleTests {
-    Logger logger = Logger.getLogger(JUnitSampleTests.class.getName());
+public class JUnitSampleTest {
+    Logger logger = Logger.getLogger(JUnitSampleTest.class.getName());
 
     private LoginService loginService;
 

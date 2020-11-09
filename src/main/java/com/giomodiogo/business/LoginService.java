@@ -2,6 +2,8 @@ package com.giomodiogo.business;
 
 import com.giomodiogo.exception.InvalidPasswordException;
 
+import java.util.List;
+
 public class LoginService {
 
     private boolean logged = false;
